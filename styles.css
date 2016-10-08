@@ -18,3 +18,14 @@
   min-height: 100px;
   display: inline-block;
 }
+
+/***************************************
+Home page
+****************************************/
+
+#content {
+    background-color: #5d8cd8;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px #777;
+}
