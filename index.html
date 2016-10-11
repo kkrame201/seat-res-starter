@@ -13,36 +13,35 @@
   </header>
   <div id="content">
     <div id="intro">
-      <p id="introtext">Welcome to Ye Olde Front-End Theatre.  We have nightly shows on Tuesday, Wednesday and Thursday evenings as well as matinee shows on Saturdays.</p>
-      <img id="nerd" src="https://s14.postimg.org/62npewoa9/Hero_Nerd2.png" />
-      <p style="text-align: center;">Please select an available seat below (*available seats are white): </p>
+      <p id="introtext">Welcome to Ye Olde Front-End Theatre.  We have nightly shows on Tuesday, Wednesday and Thursday evenings as well as matinee shows on Saturdays.</p><img  id="nerd" src="https://s14.postimg.org/62npewoa9/Hero_Nerd2.png" />
     </div>
+<p id="instructions" style="text-align: center;">Please select an available seat below (*available seats are white): </p>
   <section class="seat-chart">
     <!-- This section will contain seats with one of two classes. Eventually, the divs will be generated with JavaScript! Keep this in mind when making decisions about the layout. -->
-    <div class="reserved"></div>
-    <div class="available"></div>
-    <div class="reserved"></div>
-    <div class="available"></div>
-    <div class="reserved"></div>
-    <div class="available"></div>
-    <div class="reserved"></div>
-    <div class="reserved"></div>
-    <div class="available"></div>
-    <div class="reserved"></div>
-    <div class="reserved"></div>
-    <div class="available"></div>
-    <div class="reserved"></div>
-    <div class="reserved"></div>
-    <div class="available"></div>
-    <div class="reserved"></div>
-    <div class="available"></div>
-    <div class="reserved"></div>
-    <div class="available"></div>
-    <div class="reserved"></div>
-    <div class="reserved"></div>
-    <div class="available"></div>
-    <div class="reserved"></div>
-    <div class="reserved"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
   </section>
 <div id="contact-form"></div>
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
