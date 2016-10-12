@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Seat Reservation App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Indie+Flower" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Ye Olde Front-End Theatre</h1>
+  </header>
+  <div id="content">
+    <div id="intro">
+      <p id="introtext">Welcome to Ye Olde Front-End Theatre.  We have nightly shows on Tuesday, Wednesday and Thursday evenings as well as matinee shows on Saturdays.</p><img  id="nerd" src="https://s14.postimg.org/62npewoa9/Hero_Nerd2.png" />
+    </div>
+<p id="instructions" style="text-align: center;">Please select an available seat below (*available seats are white): </p>
+  <section class="seat-chart">
+    <!-- This section will contain seats with one of two classes. Eventually, the divs will be generated with JavaScript! Keep this in mind when making decisions about the layout. -->
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="available" onclick="reserveSeat()"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+    <div class="reserved" onclick="reserveSeat('reserved')"></div>
+  </section>
+<div id="contact-form"></div>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</div>
+<footer>&#169; 2016</footer>
+</body>
+</html>

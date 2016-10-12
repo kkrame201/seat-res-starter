@@ -1,0 +1,119 @@
+/***************************************
+Home page
+****************************************/
+
+header {
+  background-color:#000063;
+  color:white;
+  padding-top: 15px;
+  width:100%;
+  text-align:center;
+  height: 100px;
+  vertical-align: middle;
+}
+
+#content {
+    background-color: #5d8cd8;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px #777;
+    width:80%;
+    margin:35px auto 50px auto;
+    padding:15px;
+}
+
+#intro {
+  width:65%;
+  margin:auto;
+}
+
+
+ #introtext{
+  font-size: 18px;
+  float:left;
+}
+
+#introtext p {
+  width: 95%;
+}
+
+#instructions {
+  clear:both;
+}
+
+p {
+  font-family: 'Abhaya Libre', serif;
+}
+
+
+#nerd { 
+  height: 250px;
+  width: auto;
+  margin: auto;
+  display:inline-block;
+}
+
+/**************************************
+Seat Chart
+**************************************/
+
+.seat-chart {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.available {
+  background-color: white;
+  width: 24%;
+  margin: auto;
+  min-height: 100px;
+  display: inline-block;
+  border-radius:5px;
+}
+
+.reserved {
+  background-color: #ce0000;
+  width: 24%;
+  margin: auto;
+  min-height: 100px;
+  display: inline-block;
+  border-radius:5px;
+}
+
+
+/***************************************
+Footer
+***************************************/
+
+footer {
+  background-color:#000063;
+  color:white;
+  padding-top: 10px;
+  width:100%;
+  text-align:center;
+  height: 45px;
+  vertical-align: middle;
+}
+
+/****************************************
+Reserve Seat Form
+****************************************/
+
+#reserveSeatForm {
+  background-color:white;
+  width:65%;
+  margin:auto;
+  border-radius:5px;
+  padding:7px;
+  color:#777;
+}
+
+label {
+  margin-right:15px;
+}
+
+
+
+
+
+
